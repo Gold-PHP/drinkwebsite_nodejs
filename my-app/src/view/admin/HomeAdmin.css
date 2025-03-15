@@ -1,0 +1,14 @@
+/* Đặt background, padding, và bo tròn cho main */
+.main-container {
+    padding: 20px;
+    background-color: #f8fafc;
+    border-radius: 10px; /* Bo tròn khung */
+}
+
+/* Đặt kiểu chữ cho tiêu đề và cỡ chữ */
+.page-title {
+    font-size: 3rem; /* Cỡ chữ lớn hơn */
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px; /* Thêm khoảng cách dưới tiêu đề */
+}

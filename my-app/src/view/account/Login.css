@@ -1,0 +1,70 @@
+/* Style cho trang Login */
+.login {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form div {
+  margin-bottom: 15px;
+}
+
+.login form label {
+  font-weight: bold;
+}
+
+.login form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login form button:hover {
+  background-color: #45a049;
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.create-account a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
+
+/* Style cho thông báo */
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
