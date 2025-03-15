@@ -9,6 +9,7 @@ const sequelize = new Sequelize('myapp', 'root', 'thanh02594', {
     try {
         await sequelize.authenticate();
     } catch (error) {
+        console.log(error);
     }
 })();
 
