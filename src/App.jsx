@@ -24,8 +24,6 @@ function App() {
         <Route path="/categoriesAdmin" element={<><HeaderAdmin /><CategoriesAdmin /></>} />
         <Route path="/productAdmin" element={<><HeaderAdmin /><ProductAdmin /></>} />
         <Route path="/accountAdmin" element={<><HeaderAdmin /><AccountAdmin /></>} />
-        
-
       </Routes>
     </Router>
   );
